@@ -1,4 +1,4 @@
-<img width="959" height="308" alt="image" src="https://github.com/user-attachments/assets/181d3371-41d5-4650-b257-aa649aed2d64" /># Travel Planning Web Application
+# Travel Planning Web Application
 
 This project is a web application that generates personalized travel itineraries based on user preferences.
 
