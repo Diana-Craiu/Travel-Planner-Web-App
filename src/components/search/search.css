@@ -1,0 +1,51 @@
+.search-bar {
+    width: 400px; 
+    margin-bottom: 20px;
+    margin-right: 200px;
+    align-items: center;
+  }
+  
+ 
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+  .search-bar .react-select-container {
+    width: 100%;
+  }
+  
+
+  .search-bar .react-select__menu {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+  }
+  
+
+  .search-bar .react-select__option {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar .react-select__option--is-selected {
+    background-color: #f0f0f0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Imagini/vremea.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+
+  

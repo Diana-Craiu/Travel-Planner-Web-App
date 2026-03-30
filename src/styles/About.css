@@ -1,0 +1,82 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"); */
+
+  .bodyAbout {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A2334;
+    background-image: url('/Imagini/intunecat.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .reveal {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #cca5b0;
+    height: 30vw;
+    width: 50vw;
+    border: 4px solid #1e1e1e;
+    border-radius: 40px;
+    box-shadow: 1px 1px 20px #5A2334;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0.745, 0.11, 0.35, 0.845); 
+    transition-timing-function: cubic-bezier(
+      0.745,
+      0.11,
+      0.35,
+      0.845
+    ); 
+  }
+  
+  .reveal:hover {
+    background-color: #000;
+    border: 4px solid #3d3d3d;
+  }
+  .pic {
+    position: absolute;
+    height: 45vw;
+    width: 65vw;
+    object-fit: cover;
+    /* z-index: 10; */
+    border-radius: 40px;
+  }
+  
+  .h1about {
+    color: #000;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  
+  .h2about {
+    margin-top: auto;
+    color: #000;
+    z-index: 5;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .h3about {
+    color: #cca5b0;
+    z-index: 5;
+    font-size: 25px;
+    display: block;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .footerAbout {
+    font-size: 20px;
+    margin-top: auto;
+    padding-bottom: 15px;
+  }
+  
+  
