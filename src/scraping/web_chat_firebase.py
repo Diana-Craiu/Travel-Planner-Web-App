@@ -19,17 +19,17 @@ app = Flask(__name__)
 CORS(app)
 
 # cheia pentru API-ul de la OpenAI
-openai.api_key = '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'
+openai.api_key = ''
 
 # token-ul pentru Mapbox
-access_token = "sk.eyJ1IjoiZGlhbmFjcjE0MTgiLCJhIjoiY2x2d2Jldm1vMW90djJrbnk1d29oOTBpZSJ9.BuE_ICsXflKbPkVBYsRrgA"
+access_token = ""
 
 # credentialele pentru trimiterea de email-uri
 EMAIL_ADDRESS = 'mihaelacraiu100@gmail.com'
-EMAIL_PASSWORD = 'tcxs fnuk bmoi sjhx'
+EMAIL_PASSWORD = ''
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("wanderweave-9873e-firebase-adminsdk-seeds-3bfb2fc8cd.json")
+cred = credentials.Certificate("")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 

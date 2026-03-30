@@ -9,7 +9,7 @@ import { getFirestore, collection, addDoc } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAbflxsSvWrXsvrhMzXs_lPXR_aHzjjt5s",
+  apiKey: "",
   authDomain: "wanderweave-9873e.firebaseapp.com",
   projectId: "wanderweave-9873e",
   storageBucket: "wanderweave-9873e.appspot.com",
